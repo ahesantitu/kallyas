@@ -1,0 +1,265 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*=======Main MENU START========*/
+body.lock {
+        overflow: hidden;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before,
+    .header__burger::after{
+        content: '';
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::after{
+        bottom: 0;
+    }
+
+    .header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+.navbar-toggler{
+ 	border: none;
+ 	outline: none;
+ }
+ .navbar-toggler:focus{
+ 	box-shadow: none;
+ }
+.menu ul li{
+ text-align: right;
+}
+
+form .header-search{
+  width: 120px !important;
+}
+/*=======Main MENU END========*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	/*=====Common Css======*/
+h1{
+	font-size: 35px;
+	line-height: 35px;
+}
+.section-title1{
+	font-size: 35px;
+	line-height: 35px;
+	
+}
+.section-title2{
+	font-size:35px;
+	line-height: 35px; 
+}
+h3{
+	font-size: 25px;
+}
+p{
+	font-size: 16px;
+	line-height: 20px;
+	text-align: justify;
+}
+/*=======Main MENU START========*/
+body.lock {
+        overflow: hidden;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before,
+    .header__burger::after{
+        content: '';
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::after{
+        bottom: 0;
+    }
+
+    .header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+.navbar-toggler{
+ 	border: none;
+ 	outline: none;
+ }
+ .navbar-toggler:focus{
+ 	box-shadow: none;
+ }
+.menu ul li{
+ padding: 0;
+}
+/*=======Main MENU END========*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*=====Common Css======*/
+h1{
+	font-size: 40px;
+	line-height: 35px;
+}
+.section-title1{
+	font-size: 40px;
+	line-height: 35px;
+	
+}
+.section-title2{
+	font-size:40px;
+	line-height: 35px; 
+}
+h3{
+	font-size: 25px;
+}
+p{
+	font-size: 16px;
+	line-height: 20px;
+	text-align: justify;
+}	
+/*=======Main MENU START========*/
+body.lock {
+        overflow: hidden;
+    }
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        z-index: 3;
+    }
+    .header__burger span {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before,
+    .header__burger::after{
+        content: '';
+        background-color: #ffffff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::after{
+        bottom: 0;
+    }
+
+    .header__burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+
+.navbar-toggler{
+ 	border: none;
+ 	outline: none;
+ }
+ .navbar-toggler:focus{
+ 	box-shadow: none;
+ }
+.menu ul li{
+ padding:0;
+}
+/*=======Main MENU END========*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.menu ul li{
+  padding: 0px;
+}
+
+.menu ul li a{
+  font-family: Montserrat-Light;
+  font-weight: 700;
+  font-size: 17px;
+  color:#fff !important;
+  transition: all .5s ease;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+ }
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+}
